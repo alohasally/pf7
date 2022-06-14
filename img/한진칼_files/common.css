@@ -1,0 +1,17 @@
+.wrap{
+   margin: 0 auto;
+   width: 1200px;
+  
+}
+h1{}
+h2{font-weight: lighter;}
+h3{}
+h4{}
+h5{}
+h6{}
+.block{
+  display: block;
+}
+.hide{
+  display: none;
+}
