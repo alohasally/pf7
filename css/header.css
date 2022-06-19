@@ -1,0 +1,105 @@
+header{
+
+  height: 100px;
+}
+
+header .wrap{
+
+  display: flex;
+  margin-top: 44px;
+  position: relative;
+}
+
+header h1.logo{
+
+  display: flex;
+  width: 20%;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  height: 30px;
+  background-size: contain;
+}
+
+header ul.gnb{
+
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+header ul.gnb li{
+  width: 15%;
+  font-weight: bold;
+}
+
+header ul.gnb::after{
+  content:"";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/icon-hamburger-header.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  
+  
+  margin-left: 300px;
+}
+
+header ul.enb1{
+
+  display: flex;
+  position: absolute;
+  top: -49%;
+  font-size: 14px;
+  left: -19px;
+  justify-content: flex-start;
+}
+
+header ul.enb1 li{
+  width: 70px;
+  
+}
+
+header ul.enb1 li:nth-child(2){
+  width: 70px;
+  
+  position: relative;
+}
+header ul.enb1 li:nth-child(2)::before{
+  content: "I";
+  margin-left: -10px;
+  display: block;
+  
+  
+  padding-right: 28px;
+  height: 0;
+}
+
+
+header ul.enb1 li:nth-child(2)::after{
+   content: "▼";
+  margin-left: 4px;
+  display: block;
+  
+  
+  padding-right: 28px;
+  /*! height: -2px; */
+   position: absolute;
+   right: -44px;
+   top: -1px;
+   color: #666;
+}
+
+
+header ul.enb2{
+
+  display: flex;
+  position: absolute;
+  top: -53%;
+  right: 1%;
+  gap: 33px;
+  font-size: 14px;
+}
+
+
+

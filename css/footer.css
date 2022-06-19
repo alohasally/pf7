@@ -1,0 +1,119 @@
+footer{
+
+}
+footer .wrap{
+
+  width: auto;
+}
+footer .top {
+  
+ 
+  width: 100%;
+  margin: 0 auto;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+}
+footer .top_inner{
+  width: 1200px;
+  display: flex;
+}
+
+footer .top .wrap_cs{
+  
+  width: 30%;
+  margin: 0;
+}
+
+footer .top .wrap_cs h6{
+  
+}
+footer .top .wrap_cs p{
+  
+  font-size: 13px;
+}
+footer .top .wrap_cs a{
+  
+  font-size: 13px;
+  text-decoration: black;
+}
+
+footer .top .sns{
+
+  width: 30%;
+}
+footer .top .sns li{
+
+}
+footer .top .wrap_mk{
+  
+  width: 30%;
+}
+footer .top .wrap_mk p{
+  
+  font-size: 13px;
+}
+footer .top .wrap_mk a{
+  
+  font-size: 13px;
+  text-decoration: black;
+}
+footer .middle{
+  
+   height: 74px;
+}
+footer .middle_inner{
+  
+  display: flex;
+}
+footer .middle ul{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+footer .middle ul li{
+}
+footer #family{
+
+  width: 10%;
+  height: 40px;
+  border: 0px;
+  border-radius: 5px;
+}
+footer #family option{
+
+}
+
+footer .bottom{
+
+}
+footer .bottom_inner{
+
+}
+footer .left{
+
+}
+footer .logo{
+
+}
+footer .left ul{
+
+}
+footer .leftbottom{
+
+}
+footer .leftbottom p{
+    
+}
+footer .leftbottom address{
+    
+}
+footer .right{
+
+}
+footer .right ul{
+    
+}
+footer .right ul li{
+    
+}
